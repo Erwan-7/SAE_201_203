@@ -1,0 +1,81 @@
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #00021a, #003060);
+      min-height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      background: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-weight: bold;
+      color: #300062;
+      text-align: center;
+    }
+
+    .logo {
+      position: absolute;
+      right: 20px;
+    }
+
+    .container-box {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 100px auto; /* Augmenté pour descendre le carré */
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+
+    .container-box h2 {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+    }
+
+    .btn-style {
+      margin: 10px;
+      background-color: rgba(255, 255, 255, 0.05);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 10px 25px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-style:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .footer {
+      margin-top: auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .btn-return {
+      background-color: rgba(255, 255, 255, 0.05);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 10px 25px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-return:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+    }

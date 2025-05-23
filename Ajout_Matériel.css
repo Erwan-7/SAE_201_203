@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(135deg, #000000, #1a0033);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.form-container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #1e003a;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+.preview-img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.btn-purple {
+  background-color: #6f42c1;
+  border: none;
+}
+.btn-purple:hover {
+  background-color: #5a379e;
+}
+.message {
+  text-align: center;
+  margin-bottom: 20px;
+}

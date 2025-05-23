@@ -1,0 +1,126 @@
+body {
+  background-color: #0d012b;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-custom {
+  background: linear-gradient(145deg, #1f005c, #2a006e);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 4px 15px rgba(111, 66, 193, 0.6);
+}
+
+h2 {
+  color: #6f42c1;
+  text-shadow: 0 0 6px #9a7fde;
+}
+
+.form-label {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: white;
+  position: static !important;
+  transform: none !important;
+  top: auto !important;
+  left: auto !important;
+  z-index: 1;
+}
+
+.form-control {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid #6f42c1;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.form-control::placeholder {
+  opacity: 1 !important;
+  color: #ccc;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  outline: none;
+  border-color: #9a7fde;
+  box-shadow: 0 0 8px #9a7fde;
+  color: white;
+}
+
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+  opacity: 1 !important;
+  transform: none !important;
+  top: auto !important;
+  left: auto !important;
+  color: white !important;
+}
+
+/* Boutons violet */
+.btn-purple, .btn-primary {
+  background-color: #6f42c1;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #6f42c1;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-purple:hover, .btn-primary:hover {
+  background-color: #5a32a3;
+  border-color: #5a32a3;
+}
+
+/* Matériel supplémentaire */
+.materiel-supp-item {
+  background-color: rgba(111, 66, 193, 0.15);
+  padding: 15px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.materiel-supp-item select,
+.materiel-supp-item input {
+  margin-bottom: 0.5rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid #6f42c1;
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.materiel-supp-item select:focus,
+.materiel-supp-item input:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: #9a7fde;
+  box-shadow: 0 0 6px #9a7fde;
+  outline: none;
+}
+
+.materiel-supp-item img.supp-image {
+  display: block;
+  margin-bottom: 0.3rem;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.materiel-supp-item a.supp-link {
+  font-size: 0.9rem;
+  color: #9f7aea; /* violet clair */
+  word-break: break-word;
+  display: inline-block;
+  margin-top: 3px;
+}

@@ -1,0 +1,40 @@
+        body {
+            background: linear-gradient(135deg, #0c0026, #1e0040, #000000);
+            color: white;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: white;
+        }
+        .fc-toolbar-title {
+            color: white !important;
+        }
+        .fc-button {
+            background-color: #6a0dad !important;
+            border: none;
+        }
+        .fc-button:hover {
+            background-color: #8a2be2 !important;
+        }
+        .fc-daygrid-event {
+            font-size: 0.85rem;
+        }
+        .return-btn {
+            margin-top: 2rem;
+        }
+        .return-btn a {
+            display: block;
+            width: 100%;
+            background-color: #4b0082;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .return-btn a:hover {
+            background-color: #6a0dad;
+        }

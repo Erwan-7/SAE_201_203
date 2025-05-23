@@ -1,0 +1,49 @@
+        body {
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .stats-container {
+            border: 2px solid white;
+            border-radius: 20px;
+            background: linear-gradient(to right, #10002b, #240046);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            color: #7b2cbf;
+        }
+        th, td {
+            text-align: center;
+            vertical-align: middle;
+        }
+        th {
+            background-color: #7b2cbf;
+        }
+        td {
+            background-color: #240046;
+        }
+        table {
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .btn-custom {
+            margin-top: 1rem;
+            background-color: #7b2cbf;
+            color: white;
+        }
+        .logo-right {
+            display: flex;
+            gap: 1rem;
+        }
+        canvas {
+            max-height: 300px;
+            background-color: #240046;
+            padding: 10px;
+            border-radius: 15px;
+        }

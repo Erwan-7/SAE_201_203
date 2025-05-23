@@ -1,0 +1,86 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#salleImage {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#calendar {
+    background-color: #1e004d;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #cbb4ff;
+    color: white;
+}
+
+.fc {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.fc .fc-toolbar-title {
+    color: #cbb4ff;
+}
+
+.fc .fc-button {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: white;
+}
+
+.fc .fc-button:hover {
+    background-color: #8a63d2;
+    border-color: #8a63d2;
+}
+
+.fc-event {
+    background-color: #9b59b6;
+    border: none;
+    color: white;
+    font-size: 0.85em;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.form-control, .form-select {
+    background-color: #2e0854;
+    color: #ffffff;
+    border: 1px solid #cbb4ff;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #3a0e6e;
+    color: white;
+    border-color: #9b59b6;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #8a63d2;
+    border-color: #8a63d2;
+}
+
+.btn-secondary {
+    background-color: #333;
+    border-color: #444;
+}
+
+.alert {
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+h1 {
+    color: #ffffff;
+}

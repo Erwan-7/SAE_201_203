@@ -1,0 +1,118 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000000, #2b1d68, #4b2e83);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            padding: 40px;
+            flex: 1;
+            width: calc(100% - 60px);
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        #calendar {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        .fc .fc-button {
+            background-color: #4b2e83;
+            border: none;
+            color: white;
+        }
+
+        .fc .fc-button:hover {
+            background-color: #321d59;
+        }
+
+        .legend {
+            margin: 20px 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .legend div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+
+        .btn-home {
+            width: 100%;
+            background: linear-gradient(to right, #7b42f6, #321d59);
+            border: none;
+            padding: 15px;
+            font-size: 1.2rem;
+            color: white;
+            font-weight: bold;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 40px;
+        }
+
+        .btn-home:hover {
+            background: #1e0a3c;
+        }
+
+        #modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            background: #2c1c4a;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            border-radius: 12px;
+            display: none;
+            z-index: 1000;
+            color: white;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+        }
+
+        #modal input {
+            margin: 10px 0;
+            padding: 8px;
+            width: 100%;
+            background-color: #3d2a67;
+            border: none;
+            color: white;
+            border-radius: 6px;
+        }
+
+        #modal button {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            background-color: #6ec1e4;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        #modal .delete {
+            background-color: #e74c3c;
+            color: white;
+            margin-top: 5px;
+        }

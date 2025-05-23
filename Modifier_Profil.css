@@ -1,0 +1,91 @@
+    body {
+      background: linear-gradient(to bottom right, #000000, #321d59, #4b2e83);
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 30px 0;
+    }
+
+    .container-profil {
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 950px;
+      margin: auto;
+      border: 2px solid #fff;
+    }
+
+    .profil-title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: white;
+    }
+
+    .field-label {
+      color: #ccc;
+      margin-bottom: 5px;
+    }
+
+    .field-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .editable-input {
+      background-color: transparent;
+      border: 2px solid #ffffff;
+      border-radius: 8px;
+      padding: 10px 15px;
+      color: white;
+      width: 100%;
+    }
+
+    .modifier-btn {
+      background-color: transparent;
+      border: 2px solid #7b42f6;
+      color: white;
+      font-weight: bold;
+      border-radius: 25px;
+      padding: 8px 20px;
+      margin-left: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .modifier-btn:hover {
+      background-color: #7b42f6;
+      color: black;
+    }
+
+    .btn-retour {
+      background-color: white;
+      color: #321d59;
+      font-weight: bold;
+      border-radius: 12px;
+      padding: 12px 30px;
+      margin-top: 40px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .check-container {
+      width: 30px;
+      text-align: center;
+    }
+
+    .success-icon {
+      display: inline-block;
+      color: #28a745;
+      font-size: 1.5rem;
+      animation: fadeOut 2s ease-in-out forwards;
+    }
+
+    @keyframes fadeOut {
+      0% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    .password-fields {
+      display: none;
+      margin-top: 10px;
+    }

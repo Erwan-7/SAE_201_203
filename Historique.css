@@ -1,0 +1,74 @@
+        body {
+            background: linear-gradient(135deg, #0c0026, #1e0040, #000000);
+            color: white;
+            min-height: 100vh;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            background-color: #000000;
+            padding: 2rem;
+            border-radius: 20px;
+            border: 2px solid white;
+        }
+
+        h1 {
+            color: #6a0dad;
+            font-size: 3rem;
+        }
+
+        .info-banner {
+            background: linear-gradient(to right, #1e0040, #4b0082);
+            padding: 1rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.25rem;
+            border: 2px solid white;
+        }
+
+        table {
+            background-color: #0c0026;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #6a0dad;
+            color: white;
+        }
+
+        td {
+            background-color: #1e0040;
+            color: white;
+            word-wrap: break-word;
+            max-width: 150px;
+        }
+
+        .btn-custom {
+            background-color: #4b0082;
+            color: white;
+            border: none;
+            padding: 1rem;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+            display: block;
+            width: 100%;
+        }
+
+        .btn-custom:hover {
+            background-color: #6a0dad;
+        }
+
+        .logo-right {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+        }
